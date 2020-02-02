@@ -1,10 +1,4 @@
-//
-//  MoreViewController.swift
-//  DesignCodeApp
-//
-//  Created by Tiago Mergulhão on 14/01/18.
-//  Copyright © 2018 Meng To. All rights reserved.
-//
+
 
 import UIKit
 import MKRingProgressView
@@ -83,7 +77,7 @@ class MoreViewController: UIViewController {
     }
 
     @IBAction func safariButtonTapped(_ sender: Any) {
-        performSegue(withIdentifier: "More to Web", sender: "https://designcode.io")
+        performSegue(withIdentifier: "More to Web", sender: "https://erscheinung.github.io/sociotype-test/")
     }
     @IBAction func communityButtonTapped(_ sender: Any) {
         performSegue(withIdentifier: "More to Web", sender: "https://spectrum.chat/design-code")

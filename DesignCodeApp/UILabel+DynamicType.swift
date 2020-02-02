@@ -1,10 +1,4 @@
-//
-//  UILabel+DynamicType.swift
-//  DesignCodeApp
-//
-//  Created by Tiago Mergulhão on 06/03/18.
-//  Copyright © 2018 Meng To. All rights reserved.
-//
+
 
 import UIKit
 

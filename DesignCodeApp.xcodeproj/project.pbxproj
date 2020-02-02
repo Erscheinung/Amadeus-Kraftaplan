@@ -225,7 +225,6 @@
 				9698CD181FBB5DE000501C47 /* Frameworks */,
 				9698CD191FBB5DE000501C47 /* Resources */,
 				D25AB508E60D265FC6C660B8 /* [CP] Embed Pods Frameworks */,
-				D597E55B5C45D51848B17235 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,7 +311,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DesignCodeApp/Pods-DesignCodeApp-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DesignCodeApp/Pods-DesignCodeApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Ambience/Ambience.framework",
 				"${BUILT_PRODUCTS_DIR}/MKRingProgressView/MKRingProgressView.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
@@ -327,22 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesignCodeApp/Pods-DesignCodeApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D597E55B5C45D51848B17235 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesignCodeApp/Pods-DesignCodeApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesignCodeApp/Pods-DesignCodeApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

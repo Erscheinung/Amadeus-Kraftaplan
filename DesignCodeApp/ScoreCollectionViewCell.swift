@@ -1,10 +1,4 @@
-//
-//  ScoreCollectionViewCell.swift
-//  DesignCodeApp
-//
-//  Created by Tiago Mergulhão on 01/02/18.
-//  Copyright © 2018 Meng To. All rights reserved.
-//
+
 
 import UIKit
 import MKRingProgressView

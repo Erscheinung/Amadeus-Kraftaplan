@@ -1,82 +1,75 @@
-//
-//  Data.swift
-//  DesignCodeApp
-//
-//  Created by Meng To on 12/17/17.
-//  Copyright © 2017 Meng To. All rights reserved.
-//
 
 import UIKit
 
 let benefits : Array<Dictionary<String,String>> = [
     [
-        "subhead": "Watch and follow",
-        "title": "44 hours of video",
-        "body": "Each section is accompanied with captioned, well-paced videos that will help you follow step by step.",
-        "image": "Video"
-    ],[
-        "subhead": "Search and Bookmark",
-        "title": "100,000 words",
-        "body": "Most online courses either only have texts or videos. Design+Code has both, all searchable.",
+        "subhead": "",
+        "title": "Find a career you'll actually love",
+        "body": "World's most comprehensive assesment for career guidance and awareness",
         "image": "Words"
     ],[
-        "subhead": "Download",
-        "title": "10GB Source Files",
-        "body": "Over 36 Sketch files, 36 Xcode project files and templates to ensure that you start strong.",
-        "image": "Files"
+        "subhead": "",
+        "title": "Advanced psycometric analysis",
+        "body": "World's most comprehensive assesment for analysing a candidate.",
+        "image": "Words"
     ],[
-        "subhead": "Enjoy Anywhere",
-        "title": "iPhone, iPad & Web",
-        "body": "Experience the book from your iPhone, iPad and desktop. We got downloadable ePubs too.",
-        "image": "iOS"
-    ],[
-        "subhead": "Read, Browse",
-        "title": "Offline Experience",
-        "body": "Poor wifi? The app was designed for offline use so that you don't always rely on the internet.",
-        "image": "Offline"
-    ],[
-        "subhead": "Test your Knowledge",
-        "title": "Exercises",
-        "body": "The questions are hard. Try as many times as you want, get timed and stats to see how you improve.",
-        "image": "Exercises"
+        "subhead": "",
+        "title": "Track your mood and tasks throughout",
+        "body": "Mood and task tracker to keep you on the right path",
+        "image": "Words"
     ],
+//      [
+//        "subhead": "Enjoy Anywhere",
+//        "title": "iPhone, iPad & Web",
+//        "body": "Experience the book from your iPhone, iPad and desktop. We got downloadable ePubs too.",
+//        "image": "iOS"
+//    ],[
+//        "subhead": "Read, Browse",
+//        "title": "Offline Experience",
+//        "body": "Poor wifi? The app was designed for offline use so that you don't always rely on the internet.",
+//        "image": "Offline"
+//    ],[
+//        "subhead": "Test your Knowledge",
+//        "title": "Exercises",
+//        "body": "The questions are hard. Try as many times as you want, get timed and stats to see how you improve.",
+//        "image": "Exercises"
+//    ],
 ]
 
 let exercises = [
     "chapter-1-iOS-11-Design": [
         [
-            "question": "What are the 3 core philosophies for iOS design?",
-            "correctAnswer": "Deference, clarity and depth",
+            "question": " In recursion, the condition for which the function will stop calling itself is ",
+            "correctAnswer": "Base case",
             "answers": [
-                "Intuition, clarity and beauty",
-                "Deference, clarity and depth",
-                "Fun, clarity and perception",
-                "Good, great and insanely great",
-                "Clarity, depth and intuition",
+                "Best case",
+                "Worst case",
+                "Base case",
+                "There is no such condition",
             ]
         ],
         [
-            "question": "What is the recommended line-height for readability?",
-            "correctAnswer": "120% to 145%",
+            "question": "Recursion is a method in which the solution of a problem depends on ",
+            "correctAnswer": "Smaller instances of the same problem",
             "answers": [
-                "100% to 110%",
-                "110% to 120%",
-                "110% to 150%",
-                "120% to 145%",
-                "100% to 160%",
+                "Larger instances of different problems",
+                "Larger instances of the same problem",
+                "Smaller instances of the same problem",
+                "Smaller instances of different problems",
+               
             ],
         ],
     ],
     "chapter-1-Sketch": [
         [
-            "question": "What's the big feature in Sketch 47?",
-            "correctAnswer": "Libraries",
+            "question": "Which one of the following is false?",
+            "correctAnswer": "Heap sort is stable sort",
             "answers": [
-                "New Emojis",
-                "Nested Symbols",
-                "Symbol Overrides",
-                "Resizing Constraints",
-                "Libraries",
+                "Heap sort is an in-place algorithm",
+                "Heap sort has O(nlogn) average case time complexity",
+                " Heap sort is stable sort",
+                "Heap sort is a comparison-based sorting algorithm",
+               
             ]
         ],
     ],
@@ -86,120 +79,70 @@ let allBookmarks = [
     [
         "type": "code",
         "chapter": "3",
-        "section": "Intro to Storyboards",
-        "part": "Object Library",
-        "content": "On the bottom right, you’ll find the Object Library. That’s the 3rd tab. The Object Library has all the UI components that you can use for your layout. It’s like Insert in Sketch."
-    ],
-    [
-        "type": "image",
-        "chapter": "1",
-        "section": "Learn iOS 11 Design",
-        "part": "Large Titles",
-        "content": "More than ever, iOS 11 is going back to its roots. Bold fonts are everywhere. Titles are big and black. Since screens are now about twice as tall as they were, it only makes sense to have large titles. Another reason for large fonts is accessibility. With billions of people using their phone daily from all age groups, it is important to make the content as clear and readable as possible. Accessibility lets users set very large fonts for apps that support it. In iOS 11, all of Apple’s stock apps support that option.  Because of that reason, you’ll find that users are now expecting it."
-    ],
-    [
-        "type": "image",
-        "chapter": "2",
-        "section": "Design for iOS 11",
-        "part": "Layout Margin",
-        "content": "In this Home screen, we use a layout margin of 16px from the left and the right. Like this we ensure that the user interface stay focus in the middle of the screen and doen't look cramped against the edge."
+        "section": "Task Tracking",
+        "part": "Pointers and Recursion",
+        "content": "Excercise 2: C in Depth, Assignment 2.12: Reversing a stack using recursion"
     ],
     [
         "type": "text",
-        "chapter": "2",
-        "section": "Status Bar",
-        "part": "Setting Up the Basics",
-        "content": "We need a Status Bar for the top of the screen. You can find the Status Bar in the Insert menu at the Toolbar. If you've installed Sketch Runner, you can search it easily. Go to Plugins > Runner > Run… or press Command + ' (apostrophe) to activate Sketch Runner. Select the Insert tab and type keyword \"status bar black\" and double-click the Symbol and then, place it in the Artboard."
+        "chapter": "1",
+        "section": "Mood Tracking",
+        "part": "Feeling Lazy",
+        "content": "Wasn't able to complete the tasks as was busy working on the ongoing research paper.!"
     ],
     [
-        "type": "image",
+        "type": "code",
         "chapter": "2",
-        "section": "Design for iOS 11",
-        "part": "Design+Code Home Screen",
-        "content": "We will be designing the new Design+Code Home screen in this tutorial. It contains a hero image, headline, introduction, call-to-action button, chapter and people section."
+        "section": "Reminder: Assignment Due",
+        "part": "Computer Networks: Internet Protocol",
+        "content": "Due date gone. Please complete the assignment latest by tomorrow to keep the targets on track"
     ]
 ]
 
 let testimonials = [
     [
-        "text": "Design+Code is a wake-up call. Why should I learn a web based technology or a deprecated tool when the obvious choice is to learn Xcode?",
-        "name": "Jean-Marc Denis",
-        "job": "Product Designer at Facebook",
-        "avatar": "avatar-jean-marc"
-    ],
-    [
-        "text": "If you're comfortable with Framer, you can easily transfer your knowledge to Swift. You can animate pretty easily while building an app.",
-        "name": "Min-Sang Choi",
-        "job": "Interaction Designer at Google",
+        "text": "I was always a creative person. I did not want to do the same thing over and over again. Marketing requires a level of creativity.",
+        "name": "Aakrshita Kapoor",
+        "job": "Student at University of Newcastle",
         "avatar": "avatar-min-sang"
     ],
     [
-        "text": "First of all I am 12 years old, live in Britain and I just realised that all I want to do for the rest of my life is design amazing things. (Tom Fox won a scolarship for WWDC 2015)",
-        "name": "Tom Fox",
+        "text": "“I still remember the time I messed up my CAT exam and today is the time when I feel really happy and content.",
+        "name": "Anshul Joshi",
         "job": "Student",
-        "avatar": "avatar-tom-fox"
+        "avatar": "avatar-min-sang"
+    ],
+    [
+        "text": "Thanks to the team and mentors at Kraftaplan, I would strongly recommend Kraftaplan to anybody who is looking for a fundamental shift in their career.",
+        "name": "Aditya Dhar",
+        "job": "Student",
+        "avatar": "avatar-min-sang"
     ],
     [
         "text": "As a developer, I really appreciated the chapters on Color Theory and Typography. It was just the right balance of theory combined with practical examples.",
-        "name": "Chris Ching",
-        "job": "Teaches iOS Programming",
-        "avatar": "avatar-chris-ching"
-    ],
-    [
-        "text": "I began a Swift learning plan 5 days ago, this is part of what I did in five days. I learned a lot from Meng To's Design+Code.",
-        "name": "MartinRGB",
-        "job": "Designer and Coder",
-        "avatar": "avatar-martin-rgb"
-    ],
-    [
-        "text": "Thanks to Design + Code, I just released my first app on the store: Sky Graph. It's been a great learning experience as a designer learning to code.",
-        "name": "Wayne Sang",
-        "job": "Senior Product Manager at TWG",
-        "avatar": "avatar-wayne-sang"
-    ],
-    [
-        "text": "I found and bought Design+Code by Meng To which takes you through each step of the process from design to code to app store submission.",
-        "name": "Kenny Chen",
-        "job": "User Experience Designer at Bankrate",
-        "avatar": "avatar-kenny-chen"
-    ],
-    [
-        "text": "Thanks to @MengTo, I was able to get a rough prototype of my first app working this weekend.",
-        "name": "Andrew McCarthy",
-        "job": "Product Designer",
-        "avatar": "avatar-andrew-mccarthy"
+        "name": "Arvind Kamra",
+        "job": "Student",
+        "avatar": "avatar-min-sang"
     ]
 ]
 
 let sections = [
     [
-        "title": "Learn iOS 11 Design",
-        "caption": "A complete guide to designing for iOS 11",
-        "body": "While flat design has become universal over the past 5 years, it wasn’t so common before iOS 7. It was the shift that shaped the design landscape. But to say that it hasn’t evolved would be inaccurate. iOS design has adapted to the bigger screens. What started as the ultimate opposite of hyper realistic designs that preceded it, flat design is now much more nuanced, giving way to gradients, drop shadows and cards.",
-        "image": "ios11"
+        "title": "Charted Accountancy",
+        "caption": "A comprehensive guide to becoming one",
+        "body": "CA can be pursued afted class 12.The steps include clearing CPT exam first, then comes IPCC Group 1 and 2 which are of 400 marks each.The candidate needs to get atleast 40 marks in each subject and a total of 200 marks to pass the two groups.Then comes the toughest of them all- CA Final. The student has to enroll for an articleship of 3 years after clearing Group-1 and Group 2 IPCC exams.",
+        "image": "blue"
     ],
     [
-        "title": "Designing for iPhone X",
-        "caption": "Guidelines to designing for iOS 11",
-        "body": "iOS 11 marks the introduction of the iPhone X, a much taller iPhone that has virtually no bezel. The 5.8-inch OLED screen is larger than the iPhone 8 Plus’s 5.5-inch, yet the body size is about the same as the iPhone 8. For designers, this means more freedom in our canvas.",
-        "image": "ios11-iphone-x"
+        "title": "Bachelors in Management Studies",
+        "caption": "A comprehensive guide to becoming one",
+        "body": "The BMS course provides you a better understanding of business. Succeeding in a business is not as easy as simply starting a business and earning profits. There are many things involved in starting and running a business, and your BMS degree teaches you exactly that. As a BMS graduate, you will be equipped to be a businessman and entrepreneur.With a BMS course, you get to choose which industry to be a part of. Managers are required in every industry, and with a BMS degree, you can join the industry that you like, or the industry where you think you have the highest potential to grow, have a successful career, and make an excellent living.",
+        "image": "blue"
     ],
     [
-        "title": "Design for iPad",
-        "caption": "How bigger screens affect your design",
-        "body": "Designing for the iPad isn’t as simple as flipping a switch and just making everything bigger. A larger screen provides a real opportunity to present more content while respecting some basic rules in navigation, typography and visual hierarchy. Don’t treat the iPad as just a big iPhone. Instead, treat it more like a desktop computer with touch capabilities. In other words, your users can be more productive, see more content and perform tasks faster like typing, and drag-and-drop and multi-tasking.",
-        "image": "ios11-ipad"
-    ],
-    [
-        "title": "Design for Apple Watch",
-        "caption": "Designing for people on the go",
-        "body": "Apple Watch was introduced on April 24, 2015, and it was highly anticipated by developers, designers, and the media. It was truly the first wearable that broke every expectation, placing Apple as the number one watch manufacturer in the world.",
-        "image": "ios11-watch"
-    ],
-    [
-        "title": "Learn Colors",
-        "caption": "How to work with colors",
-        "body": "Colors are difficult to master because it’s really easy to go overboard. When we design, we have a tendency to over-design. For colors, we tend to use competing colors that distract and just feels completely unnatural. What I can recommend is to simply stick to the basics and temper your use of colors by focusing on its utility and pleasantness. When in doubt, use colors only to draw attention to a button or element of importance.",
-        "image": "ios11-colors"
+        "title": "Bachelors in Psychology",
+        "caption": "A comprehensive guide to becoming one",
+        "body": "Psychology isn’t just a well-paid field – it’s also a growing one. Overall, the BLS predicts job opportunities across all occupations to grow by just seven percent over a decade. Even jobs in the social science, which are seeing somewhat better job growth, are anticipated to grow by just 12 percent.",
+        "image": "blue"
     ]
 ]

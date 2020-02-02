@@ -1,10 +1,3 @@
-//
-//  BookmarkTableViewCell.swift
-//  DesignCodeApp
-//
-//  Created by Tiago Mergulhão on 19/12/17.
-//  Copyright © 2017 Meng To. All rights reserved.
-//
 
 import UIKit
 

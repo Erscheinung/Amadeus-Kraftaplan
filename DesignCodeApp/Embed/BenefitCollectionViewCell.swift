@@ -1,10 +1,4 @@
-//
-//  BenefitCollectionViewCell.swift
-//  DesignCodeApp
-//
-//  Created by Tiago Mergulhão on 28/02/18.
-//  Copyright © 2018 Meng To. All rights reserved.
-//
+
 
 import UIKit
 
